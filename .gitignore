@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.out
+*.app
+
+# Compiled object files
+*.o
+*.a
+*.so
+
+# Go-specific files
+/vendor/
+bin/
+pkg/
+*.test
+
+# Go module files (optional: uncomment if you don't want to track them)
+# go.sum
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Redis dump files (if applicable)
+dump.rdb
+appendonly.aof
+
+# Environment files (for sensitive data)
+.env
+.env.local
+config.env
+
+store/store_service_test.go
+shortener/shorturl_generator_test.go
